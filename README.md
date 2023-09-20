@@ -2,6 +2,13 @@
 
 Occasionally we need to send out rewards packages to players en masse.  Portal has some tooling but is currently intended for individual or small batch processing.  Long-term it would be great to provide mass granting functionality to Portal, but in the meantime, this tool will allow you to craft a CSV to give any number of grants, and process it from your local machine.
 
+You will need to install the .NET Core 7.0 framework to be able to run this tool.
+
+* [macOS Arm64 Installer]("https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-7.0.401-macos-arm64-installer")
+* [Windows x64 Installer]("https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-7.0.401-windows-x64-installer")
+* [Other Versions]("https://dotnet.microsoft.com/en-us/download/dotnet/7.0")
+
+
 ## Sheet Setup & CSV Format
 
 For data safety, the CSV must adhere to a very specific format.  The first line of the CSV _must_ match the expected headers.  A compatible spreadsheet will look like this:
@@ -44,8 +51,8 @@ Refer to token-service's documentation for full details, but it should be noted 
 With your environment JSON set up, you only need two arguments; one for the environment and one with a relative file path to your CSV.
 
 ```
- Format: ./mailbox-mass-granter -{environment} -{relative path to grant file}
-Example: ./mailbox-mass-granter -dev -"bad leaderboards 20230101.csv" 
+Format: dotnet mailbox-mass-granter.dll -{environment} -{relative path to grant file}
+Example: dotnet mailbox-mass-granter.dll -dev -"bad leaderboards 20230101.csv"
 ```
 
 ### Example Output
