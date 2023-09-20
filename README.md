@@ -4,9 +4,9 @@ Occasionally we need to send out rewards packages to players en masse.  Portal h
 
 You will need to install the .NET Core 7.0 framework to be able to run this tool.
 
-* [macOS Arm64 Installer]("https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-7.0.401-macos-arm64-installer")
-* [Windows x64 Installer]("https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-7.0.401-windows-x64-installer")
-* [Other Versions]("https://dotnet.microsoft.com/en-us/download/dotnet/7.0")
+* [macOS Arm64 Installer](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-7.0.401-macos-arm64-installer)
+* [Windows x64 Installer](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-7.0.401-windows-x64-installer)
+* [Other Versions](https://dotnet.microsoft.com/en-us/download/dotnet/7.0)
 
 
 ## Sheet Setup & CSV Format
