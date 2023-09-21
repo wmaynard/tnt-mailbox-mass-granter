@@ -179,6 +179,7 @@ using (HttpClient client = new())
     StringContent[] payloads = lines
         .Skip(1)
         .Select(str => str.Replace("\r", "").Split(','))
+        .Where(str => str.Any(inner => !string.IsNullOrWhiteSpace(inner)))
         .Select(CreatePayload)
         .Select(payload =>
         {
