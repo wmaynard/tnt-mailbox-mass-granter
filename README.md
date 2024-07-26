@@ -8,6 +8,20 @@ You will need to install the .NET Core 7.0 framework to be able to run this tool
 * [Windows x64 Installer](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-7.0.401-windows-x64-installer)
 * [Other Versions](https://dotnet.microsoft.com/en-us/download/dotnet/7.0)
 
+## Acknowledgment
+
+The Mail Granter was originally created for Rumble Entertainment (which later became R Studios), a mobile gaming company.  This is a CLI script that was very rough around the edges.  It wasn't optimized or even planned well as it was a quick 2-3 hour scribble requested by Customer Service to send out batches of tens of thousands of in-game mail.  Our internal web application was not able to handle large bulk volume, so letting a console run in the background was a kluge until the web tools were improved to handle the load.  Said update never ended up happening, but this tool was fine being used almost weekly with almost no maintenance or improvements (though async admittedly would have sped things up considerably).
+
+R Studios unfortunately closed its doors in July 2024.  This project has been released as open source with permission.
+
+As of this writing, there may still be existing references to Rumble's resources, such as Confluence links, but their absence doesn't have any significant impact.  Some documentation will also be missing until it can be recreated here, since with the company closure any feature specs and explainer articles originally written for Confluence / Slack channels were lost.
+
+While Rumble is shutting down, I'm grateful for the opportunities and human connections I had working there.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.txt) file for details.
+
 
 ## Sheet Setup & CSV Format
 
